@@ -51,19 +51,19 @@
   transform: perspective(900px);
 }
 .skill-orbit:nth-child(1){
-    width: 100%; height: 100%;   
+    width: 90%; height: 90%;   
 }
 .skill-orbit:nth-child(2){
-    width: 82.5%; height: 82.5%; 
+    width: 75.5%; height: 75.5%; 
 }
 .skill-orbit:nth-child(3){
-    width: 65%; height: 65%;
+    width: 58%; height: 58%;
 }
 .skill-orbit:nth-child(4){
-    width: 47.5%; height: 47.5%;
+    width: 42.5%; height: 42.5%;
 }
 .skill-orbit:nth-child(5){
-    width: 30%; height: 30%;
+    width: 25%; height: 25%;
 }
 .skill-planet{
     width: 30px;
@@ -124,7 +124,7 @@
     -webkit-animation: travelOrbit 10s infinite linear;
     animation: travelOrbit 10s infinite linear;
     -webkit-transform-origin: 50% 713%;
-    transform-origin: 50% 713%;
+    transform-origin: 50% 653%;
 }
 .skill-orbit:nth-child(1) span{
     -webkit-animation: unrotate 10s infinite linear;
@@ -134,7 +134,7 @@
     -webkit-animation: travelOrbit 8s infinite linear;
     animation: travelOrbit 8s infinite linear;
     -webkit-transform-origin: 50% 597%;
-    transform-origin: 50% 597%;
+    transform-origin: 30% 550%;
 }
 .skill-orbit:nth-child(2) span{
     -webkit-animation: unrotate 8s infinite linear; 
@@ -144,7 +144,7 @@
     -webkit-animation: travelOrbit 6s infinite linear;
     animation: travelOrbit 6s infinite linear;
     -webkit-transform-origin: 50% 480%;
-    transform-origin: 50% 480%;
+    transform-origin: 24% 430%;
 }
 .skill-orbit:nth-child(3) span{
     -webkit-animation: unrotate 6s infinite linear; 
@@ -154,7 +154,7 @@
     -webkit-animation: travelOrbit 4s infinite linear;
     animation: travelOrbit 4s infinite linear;
     -webkit-transform-origin: 50% 363%;
-    transform-origin: 50% 363%;
+    transform-origin: 50% 343%;
 }
 .skill-orbit:nth-child(4) span{
     -webkit-animation: unrotate 4s infinite linear; 
@@ -164,7 +164,7 @@
     -webkit-animation: travelOrbit 2s infinite linear;
     animation: travelOrbit 2s infinite linear;
     -webkit-transform-origin: 50% 243%;
-    transform-origin: 50% 243%;
+    transform-origin: 50% 203%;
 }
 .skill-orbit:nth-child(5) span{
     -webkit-animation: unrotate 2s infinite linear; 
