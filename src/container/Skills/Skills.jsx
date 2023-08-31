@@ -9,7 +9,7 @@ const Skills = () => {
   return (
     <>
 
-    <h2 className="head-text">  <span className='blue'>Skills</span> are the <span > helpline</span><br></br> for  survival</h2>
+    <h2 className="head-text">  <span >Skills</span> are the <span className='blue' > helpline</span><br></br> for  <span >survival</span></h2>
     
     <div class="skills-circle-wrap" style={{marginTop:"3rem"}}>
       <div class="skills-circle">

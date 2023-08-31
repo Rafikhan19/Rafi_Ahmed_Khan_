@@ -8,13 +8,21 @@
 
 .testi_items {
     display: flex;
-
+    width: 80%;
   /* flex-direction: row; */
     margin-bottom: 20px;
    
   }
-  
-
+  .back,.front{
+    background: white;
+    width: 30px;
+    height: 30px;
+    align-self: center;
+    padding: 5px;
+    margin: 30px;
+    border-radius: 50%;
+  }
+ 
   .image_test {
    width: 300px;
    height: 200px;
@@ -112,4 +120,12 @@
       }
     }
   }
-  /* @media screen and (max-width: 800px) */
+  @media screen and (max-width: 400px){
+    .main_test{
+      margin-top: -200px;
+    }
+    .back,.front{
+      margin: 10px;
+    }
+   
+  }

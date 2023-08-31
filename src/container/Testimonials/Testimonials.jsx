@@ -17,43 +17,13 @@ const Testimonials = () => {
     itemsToShow={1}
     itemsToScroll={1}
     forwardBtnProps={{
-       
-      //here you can also pass className, or any other button element attributes
-      style: {
-        alignSelf: 'center',
-        background: 'white',
-        border: 'none',
-        borderRadius: '50%',
-        color: 'blue',
-        cursor: 'pointer',
-        fontSize: '20px',
-        height: 30,
-        lineHeight: 1,
-        textAlign: 'center',
-        width: 30,
-        margin:40,
-        // marginLeft:100,
-
-      },
+      className:"front",
+      
       children: <span>{`>`}</span>,
     }}
     backwardBtnProps={{
         className:"back",
-      //here you can also pass className, or any other button element attributes
-      style: {
-        alignSelf: 'center',
-        background: 'white',
-        border: 'none',
-        borderRadius: '50%',
-        color: 'black',
-        cursor: 'pointer',
-        fontSize: '20px',
-        height: 30,
-        // lineHeight: 1,
-        textAlign: 'center',
-        width: 30,
-       margin:40,
-      },
+      
       children: <span>{`<`}</span>,
     }}
     responsiveProps={[

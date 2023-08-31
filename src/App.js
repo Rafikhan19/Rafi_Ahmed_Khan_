@@ -1,5 +1,5 @@
 import React from 'react';
-import { About,Footer,Header,Testimonials,Work } from './container';
+import { About,Footer,Header,Testimonials,Skills,Work } from './container';
 
 import { Navbar } from './components';
 import AppWrap from './wrapper/AppWrap';
@@ -15,7 +15,7 @@ const App = () => {
     <AppWrap />
       <About />
       <Work />
-      {/* <Skills /> */}
+      <Skills />
     <Testimonials />
       
       <Footer />
