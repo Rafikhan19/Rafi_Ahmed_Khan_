@@ -27,7 +27,7 @@ const Footer = () =>{
   
  return (
     <>
-    <h2 className="head-text" style={{marginTop:"3rem"}}>Take a <span>coffee </span><br></br>&<br></br> <span>chat</span>  with me</h2>
+    <h2 className="head-text" style={{marginTop:"3rem"}}><span>Take a</span> coffee <br></br><span className='blue'>&</span><br></br> chat <span>with me</span> </h2>
 
     <div className="app__footer-cards">
       <div className="app__footer-card ">
@@ -65,7 +65,7 @@ const Footer = () =>{
             name="message"
            />
         </div>
-        <button type="submit" className="p-text" value="send" >Send</button> 
+        <button type="submit" className="p-text fb" value="send" >Send</button> 
        
       </form>):(<div>
           <h3 className="head-text">
@@ -78,8 +78,8 @@ const Footer = () =>{
       }
      <div className="copyright" style={{marginTop:"-50px"}}>
      <SocialMedia />
-            <p className="p-text">@2023 Rafi Ahmed Khan</p>
-            <p className="p-text">All rights reserved</p>
+            <p className="p-text" style={{color:"white"}}>@2023 Rafi Ahmed Khan</p>
+            <p className="p-text" style={{color:"white"}}>All rights reserved</p>
           </div>
       
 
