@@ -192,4 +192,8 @@
   -webkit-transform:rotate3d(60,35,0,360deg);
   transform:rotate3d(60,35,0,360deg);
 }
-
+/* @media screen and (max-width: 500px){
+    .skills-circle-wrap{
+        padding-left: 50px;
+    } 
+} */
