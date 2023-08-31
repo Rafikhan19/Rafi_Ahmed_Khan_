@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+.main_test{
+    width: 100%;
+    /* position: absolute; */
+    /* background-color: aliceblue; */
+    
+}
+
+.testi_items {
+    display: flex;
+
+  /* flex-direction: row; */
+    margin-bottom: 20px;
+   
+  }
+  
+
+  .image_test {
+   width: 300px;
+   height: 200px;
+    /* height: auto; */
+   
+    
+  }
+  .image_test:hover{
+    filter: grayscale(5);
+  }
+  
+  .t-text {
+    background: rgb(246, 230, 180);
+  background: -webkit-linear-gradient(-45deg, rgba(246, 230, 180, 1) 0%, rgb(84, 54, 173) 100%);
+  background: linear-gradient(135deg, rgba(246, 230, 180, 1) 0%, rgba(84, 54, 173) 100%);
+    
+    justify-content: center;
+    top: 50%;
+    text-align: center;
+    align-items: center;
+    width: 400px;
+    height: 200px;
+    border-radius:0 25px 25px 0;
+   
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  .test_name{
+    padding-top: 30px;
+    word-spacing: 5px;
+    color: #030303;
+    font-family: var(--font-base);
+  }
+  .test_qt{
+    padding: 20px 20x 20px 20px;
+    margin-top: 13px;
+    margin-left: 10px;
+    margin-right: 10px;
+    word-spacing: 5px;
+    /* list-style-position:outside; */
+    color: #e4e4e4;
+    
+  }
+  .back:hover{
+     background-color: blue;
+  }
+
+  @media screen and (max-width: 800px) {
+    .main_test {
+      padding-left:0px ;
+     
+    }
+  
+    .testi_items {
+      flex-direction: column; /* Stack items vertically on smaller screens */
+     
+      left: 0px;
+    /* Center align the content */
+    }
+  
+    .image_test {
+      width: 150px;
+      height: 100px;
+  
+      margin-bottom: 10px; 
+    }
+  
+    .t-text {
+      width: 150px; /* Make text boxes full width */
+      border-radius: 25px; /* Adjust border radius */
+      padding: 15px; /* Add more padding */
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+      padding: 1rem;
+      font-size: 10px;
+      .test_name {
+        /* position: absolute; */
+             padding-top: 0px;
+             padding-left: -100px;
+             font-size: 15px;
+             white-space: nowrap;
+             /* padding-left: 0px; */
+         word-spacing: 5px;
+
+
+      }
+      .test_qt{
+       margin-top: 10px;
+       /* padding-left: -100px; */
+       /* white-space: nowrap; */
+        /* overflow: hidden; */
+         /* text-overflow: ellipsis; */
+          /* max-width: 100%; */
+          
+      
+        /* background-color: #030303; */
+      }
+    }
+  }
+  /* @media screen and (max-width: 800px) */
